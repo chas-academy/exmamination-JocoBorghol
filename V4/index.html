@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Budget</title>
+  <script src="budget.js" defer></script>
+</head>
+<body>
+  <h1>Min budget</h1>
+
+  <input type="text"   id="desc"    placeholder="Beskrivning" />
+  <input type="number" id="amount"  placeholder="Belopp" />
+
+  <button id="incomeBtn">Lägg till inkomst</button>
+  <button id="expenseBtn">Lägg till utgift</button>
+
+  <h2>Saldo: <span id="balance">0</span> kr</h2>
+
+  <h3>Inkomster</h3>
+  <ul id="incomeList"></ul>
+
+  <h3>Utgifter</h3>
+  <ul id="expenseList"></ul>
+</body>
+</html>
