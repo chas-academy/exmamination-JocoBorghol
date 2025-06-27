@@ -15,7 +15,7 @@ incomeBtn.addEventListener("click", () => {
   if (!text || isNaN(val) || val <= 0) return;
 
   incomeList.appendChild(createItem(text, val, "Inkomst"));
-  updateBalance(val);        // plus
+  updateBalance(val);  
   clearInputs();
 });
 
@@ -26,7 +26,7 @@ expenseBtn.addEventListener("click", () => {
   if (!text || isNaN(val) || val <= 0) return;
 
   expenseList.appendChild(createItem(text, val, "Utgift"));
-  updateBalance(-val);       // minus
+  updateBalance(-val);
   clearInputs();
 });
 
