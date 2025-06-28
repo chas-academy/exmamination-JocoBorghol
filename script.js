@@ -6,7 +6,8 @@ const balanceOut  = document.getElementById("balance");
 const incomeList  = document.getElementById("incomeList");
 const expenseList = document.getElementById("expenseList");
 
-let balance = 0;
+
+let balance = 0; 
 
 incomeBtn.addEventListener("click", () => {
   const text = desc.value.trim();
